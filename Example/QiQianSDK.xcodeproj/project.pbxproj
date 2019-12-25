@@ -57,14 +57,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		61AB8A0E0F8EEEE63CDDEF01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		61AB8A0E0F8EEEE63CDDEF01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		838B8013F9F24F1C49DB5FFE /* Pods-QiQianSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiQianSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-QiQianSDK_Example/Pods-QiQianSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5B0E89E0E88A25EAA17CAFE /* Pods-QiQianSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiQianSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-QiQianSDK_Tests/Pods-QiQianSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A642C400D7CD89CAB991C437 /* Pods_QiQianSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiQianSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9538CDE8535EAA30A5EE100 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BC6F8A7B1F15F5C12C4F77F7 /* QiQianSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QiQianSDK.podspec; path = ../QiQianSDK.podspec; sourceTree = "<group>"; };
+		A9538CDE8535EAA30A5EE100 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BC6F8A7B1F15F5C12C4F77F7 /* QiQianSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QiQianSDK.podspec; path = ../QiQianSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EDE6635C72E2F21718E96468 /* Pods-QiQianSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiQianSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-QiQianSDK_Example/Pods-QiQianSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EEF43EC30C37E98FAAAC48E2 /* Pods_QiQianSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiQianSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				45A238B7F0C9F8860B8D9A64 /* Pods-QiQianSDK_Tests.debug.xcconfig */,
 				A5B0E89E0E88A25EAA17CAFE /* Pods-QiQianSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
